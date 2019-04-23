@@ -7,7 +7,7 @@ func zeroval(ival int) {
 }
 
 // *int is a int pointer type, *iptr dereferences the pointer (finds its value) and amends it
-func zeroptr(iptr *int)  {
+func zeroptr(iptr *int) {
 	*iptr = 0
 }
 

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 //can take an arbitrary number of arguments
-func sum(nums ...int)  {
+func sum(nums ...int) {
 	fmt.Print(nums, " ")
 	total := 0
 	for _, num := range nums {
@@ -14,7 +14,7 @@ func sum(nums ...int)  {
 
 func main() {
 	sum(1, 2)
-	sum (1, 2, 3)
+	sum(1, 2, 3)
 
 	nums := []int{1, 2, 3, 4}
 

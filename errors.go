@@ -13,7 +13,7 @@ func f1(arg int) (int, error) {
 
 //implementing a custom error handler
 type argError struct {
-	arg int
+	arg  int
 	prob string
 }
 
